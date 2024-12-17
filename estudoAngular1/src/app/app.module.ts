@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardComponent } from './components/card/card.component';
 import { SortearComponent } from './components/pages/sortear/sortear.component';
 import { SorteadosComponent } from './components/pages/sorteados/sorteados.component';
+import { CriadoPorComponent } from './components/pages/criado-por/criado-por.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SorteadosComponent } from './components/pages/sorteados/sorteados.compo
     FooterComponent,
     CardComponent,
     SortearComponent,
-    SorteadosComponent
+    SorteadosComponent,
+    CriadoPorComponent
   ],
   imports: [
     BrowserModule,
