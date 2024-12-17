@@ -1,0 +1,10 @@
+.listaPaginas{
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.linkNav{
+  text-decoration: none;
+}
