@@ -1,10 +1,22 @@
-.listaPaginas{
-  font-size: 19px;
+.navegarPaginas{
+  background-color: #CEDFD9;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.listaPaginas{
+  display: flex;
+  font-size: 19px;
   list-style-type: none;
 }
 
-.linkNav{
+.btnNav{
+  border: solid 1px #CEDFD9;
+  color: black;
   text-decoration: none;
+  padding: 10px 50px 10px 50px;
+}
+
+.btnNav:hover{
+  background-color: #9ba9a4;
 }
