@@ -1,3 +1,17 @@
 .footerPagina{
   display: flex;
+  margin: 0;
+  background-color: #071827;
+  padding: 20px;
+}
+
+.listFooter{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #071827;
+}
+
+.linkFooter{
+  display: flex;
 }
