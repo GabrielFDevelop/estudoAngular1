@@ -6,17 +6,41 @@
 
 .listaPaginas{
   display: flex;
-  font-size: 19px;
   list-style-type: none;
 }
 
 .btnNav{
+  display: flex;
+  align-items: center;
   border: solid 1px #CEDFD9;
   color: black;
   text-decoration: none;
   padding: 10px 50px 10px 50px;
+  font-size: 18px;
 }
 
 .btnNav:hover{
   background-color: #9ba9a4;
+}
+
+.btnNav:active{
+  background-color: #848f8b;
+}
+
+.iconHome{
+  width: 40px;
+  height: 30px;
+  padding: 0 5px 0 0;
+}
+
+.iconSortear{
+  width: 40px;
+  height: 30px;
+  padding: 0 5px 0 0;
+}
+
+.iconSorteados{
+  width: 40px;
+  height: 30px;
+  padding: 0 5px 0 0;
 }
