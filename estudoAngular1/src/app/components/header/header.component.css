@@ -5,6 +5,8 @@
 }
 
 .listaPaginas{
+  background-color: #1D1627;
+
   display: flex;
   list-style-type: none;
 }
@@ -12,7 +14,7 @@
 .btnNav{
   display: flex;
   align-items: center;
-  border: solid 1px #1D1627;
+  border: none;
   text-decoration: none;
   padding: 10px 50px 10px 40px;
   font-size: 18px;  color: #9882AC;

@@ -1,0 +1,76 @@
+.title{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 70px 0;
+}
+
+.aboutPokemon{
+  display: block;
+}
+
+.titlePokemon{
+  display: flex;
+  justify-content: start;
+  padding: 10px 0 35px 150px;
+}
+
+.textImg{
+  display: flex;
+  justify-items: center;
+  padding: 10px 50px 70px 50px;
+}
+
+.textPokemon{
+  display: flex;
+  justify-items: center;
+  padding: 10px 50px 50px 0;
+}
+
+.imgPokemon{
+  display: flex;
+  max-width: 400px;
+  max-height: 400px;
+  padding: 40px 0 0 0;
+  width: auto;
+  height: auto;
+}
+
+.aboutGacha{
+  display: block;
+}
+
+.titleGacha{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 35px 150px;
+}
+
+.textGacha{
+  display: flex;
+  justify-items: center;
+  padding: 10px 200px 50px 200px;
+}
+
+.imgGacha{
+  display: flex;
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+.howToPLay{
+  display: block;
+}
+
+.titleHowToPlay{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 35px 0;
+}
+
+.textHowToPlay{
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 50px 0;
+}
