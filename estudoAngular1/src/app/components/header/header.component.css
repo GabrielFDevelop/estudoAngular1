@@ -1,22 +1,50 @@
 .navegarPaginas{
-  background-color: #CEDFD9;
+  background-color: #1D1627;
   display: flex;
   justify-content: center;
 }
 
 .listaPaginas{
+  background-color: #1D1627;
+
   display: flex;
-  font-size: 19px;
   list-style-type: none;
 }
 
 .btnNav{
-  border: solid 1px #CEDFD9;
-  color: black;
+  display: flex;
+  align-items: center;
+  border: none;
   text-decoration: none;
-  padding: 10px 50px 10px 50px;
+  padding: 10px 50px 10px 40px;
+  font-size: 18px;  color: #9882AC;
 }
 
 .btnNav:hover{
-  background-color: #9ba9a4;
+  background-color: #231c2e;
+}
+
+.btnNav:active{
+  background-color: #1b1425;
+}
+
+.iconHome{
+  width: 40px;
+  height: 30px;
+  padding: 0 5px 0 0;
+  background: none;
+}
+
+.iconSortear{
+  width: 40px;
+  height: 30px;
+  padding: 0 5px 0 0;
+  background: none;
+}
+
+.iconSorteados{
+  width: 40px;
+  height: 30px;
+  padding: 0 5px 0 0;
+  background: none;
 }
