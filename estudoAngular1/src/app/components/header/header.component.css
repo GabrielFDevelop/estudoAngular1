@@ -1,31 +1,50 @@
-.navegarPaginas{
-  background-color: #1D1627;
+.navPages{
   display: flex;
-  justify-content: center;
+  background: none;
 }
 
-.listaPaginas{
-  background-color: #1D1627;
-
+.listPages{
   display: flex;
   list-style-type: none;
+  position:fixed;
+  top: 0px;
+  left: 400px;
+  background: none;
+}
+
+.itemListPages{
+  background: none;
 }
 
 .btnNav{
+  background-color: #1D1627;
   display: flex;
   align-items: center;
-  border: none;
+  border: solid 1px #1D1627;
   text-decoration: none;
+  margin: 0;
   padding: 10px 50px 10px 40px;
   font-size: 18px;  color: #9882AC;
+  position: sticky;
 }
 
 .btnNav:hover{
   background-color: #231c2e;
+  border: solid 1px #352e3d;
+  transition: #908f92;
+  transition-duration: 0.5s;
 }
 
 .btnNav:active{
   background-color: #1b1425;
+}
+
+.btnHome{
+  border-radius: 0 0 0 15px;
+}
+
+.btnSorteados{
+  border-radius: 0 0 15px 0;
 }
 
 .iconHome{
@@ -47,4 +66,44 @@
   height: 30px;
   padding: 0 5px 0 0;
   background: none;
+}
+
+.menuList{
+  display: block;
+  justify-content: end;
+  margin: 0;
+  position:fixed;
+  top: 0px;
+  right: 0px;
+}
+
+.iconMenu{
+  width: 40px;
+  height: 30px;
+  background: none;
+}
+
+.checkMenu{
+  display: flex;
+  background-color: #1D1627;
+  border: solid 1px #1D1627;
+  padding: 10px 20px 10px 20px;
+  overflow: visible;
+  border-radius: 0 0 0 15px;
+}
+
+.checkMenu:checked{
+  display: flex;
+  padding: 10px 100px 10px 20px;
+}
+
+.menuList{
+  list-style: none;
+  background: none;
+}
+
+.btnSideMenu{
+  display: flex;
+  background-color: #1D1627;
+  border: solid 1px #1D1627;
 }

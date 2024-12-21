@@ -1,14 +1,25 @@
-<header class="headerPagina">
-  <nav class="navegarPaginas">
-    <ul class="listaPaginas">
-      <li>
-        <button class="btnNav" routerLink=""><img class="iconHome" src="../../../assets/svg/house-solid.svg" alt="homeIcon">Home</button>
+<header class="headerPage">
+  <nav class="navPages">
+    <ul class="listPages">
+      <li class="itemListPages">
+        <button class="btnNav btnHome" routerLink=""><img class="iconHome" src="../../../assets/svg/house-solid.svg" alt="homeIcon">Home</button>
       </li>
-      <li>
-        <button class="btnNav" routerLink="/sortear"><img class="iconSortear" src="../../../assets/svg/circle-half-stroke-solid.svg" alt="sortearIcon">Sortear</button>
+      <li class="itemListPages">
+        <button class="btnNav btnSortear" routerLink="/sortear"><img class="iconSortear" src="../../../assets/svg/circle-half-stroke-solid.svg" alt="sortearIcon">Sortear</button>
       </li>
-      <li>
-        <button class="btnNav" routerLink="/sorteados"><img class="iconSorteados" src="../../../assets/svg/database-solid.svg" alt="sorteadosIcon">Sorteados</button>
+      <li class="itemListPages">
+        <button class="btnNav btnSorteados" routerLink="/sorteados"><img class="iconSorteados" src="../../../assets/svg/database-solid.svg" alt="sorteadosIcon">Sorteados</button>
+      </li>
+    </ul>
+    <ul class="menuList">
+      <label>
+        <input type="checkbox" class="btnNav checkMenu"><img class="iconMenu" src="../../../assets/svg/bars-solid.svg" alt="menuIcon">
+      </label>
+      <li class="itemListMenu">
+        <button class="btnSideMenu btnLogin">Login</button>
+      </li>
+      <li class="itemListMenu">
+        <button class="btnSideMenu btnRegister">Cadastrar</button>
       </li>
     </ul>
   </nav>

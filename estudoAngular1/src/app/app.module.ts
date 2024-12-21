@@ -11,6 +11,7 @@ import { CardComponent } from './components/card/card.component';
 import { SortearComponent } from './components/pages/sortear/sortear.component';
 import { SorteadosComponent } from './components/pages/sorteados/sorteados.component';
 import { CriadoPorComponent } from './components/pages/criado-por/criado-por.component';
+import { LoginComponent } from './components/pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CriadoPorComponent } from './components/pages/criado-por/criado-por.com
     CardComponent,
     SortearComponent,
     SorteadosComponent,
-    CriadoPorComponent
+    CriadoPorComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
